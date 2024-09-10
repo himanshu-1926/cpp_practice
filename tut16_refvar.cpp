@@ -1,8 +1,4 @@
 
-
-//  1.)........................call by refrence by pointer.......................
-
-
 #include <iostream>
 using namespace std;
 int sum(int a , int b){
@@ -14,17 +10,17 @@ int temp = a;
  a = b;
  b = temp ;
  }
-void swapPointer(int* a,int* b){
-int temp = *a;
- *a = *b;
- *b = temp ;
+void swaprefvar(int &a ,int &b){
+int temp = a;
+ a = b;
+ b = temp ;
  }
 int main(){
     int x=19;
     int y=26;
     cout<<"the value a is "<<x<<" and the value of b is"<<y<<endl;
    // swap(x,y); 
-   swapPointer(&x , &y);
+   swaprefvar(x , y);
 
     cout<<"the value a is "<<x<<"and the value of b is"<<y<<endl;
 
