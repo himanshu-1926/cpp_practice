@@ -1,11 +1,11 @@
 #include <iostream>  
 using namespace std;
-typedef struct employee
-{
-    int eId ;
-    float salary;
-    char favChar;
-}ep;
+// typedef struct employee
+// {
+//     int eId ;
+//     float salary;
+//     char favChar;
+// }ep;
 union money
 {
 int rice ;
@@ -14,7 +14,6 @@ float pound;
 };
 
 int main(){
-   ep himanshu;
    union money m1;
    m1.rice=34;
    m1.car='h';

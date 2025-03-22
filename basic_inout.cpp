@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int num1,num2;
-    cout<<"enter the value of num1:\n";
+    cout<<"enter the value of num 1:\n";
     cin>>num1;
 
    cout<<"enter the value of num2:\n";
@@ -11,4 +11,5 @@ int main()
    cout<<"the sum is"<< num1+num2;
    return 0;
    
+
 }   

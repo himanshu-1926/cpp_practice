@@ -23,8 +23,8 @@ int main(){
     int x=19;
     int y=26;
     cout<<"the value a is "<<x<<" and the value of b is"<<y<<endl;
-   // swap(x,y); 
-   swapPointer(&x , &y);
+  //  swap(x,y);  
+   swapPointer(&x , &y); 
 
     cout<<"the value a is "<<x<<"and the value of b is"<<y<<endl;
 
