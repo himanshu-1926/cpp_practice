@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int sum(int a , int b);
+// int sum(int a , int b);
 int a=2;
 int b=4;
 int sum(int a , int b){

@@ -23,7 +23,7 @@ void binary::check_bin()
         if (s.at(i) != '0' && (s.at(i)) != '1')
         {
             cout << "incorrect binary number " << endl;
-            exit(0);
+            // exit(0);
         }
     }
 }

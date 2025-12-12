@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class defconst{
+class defconst{ 
 int a;
 public:
 defconst(){
@@ -25,5 +25,8 @@ x2.display();
 x3.display();
 defconst z1(x1);
 z1.display();
+defconst z2=x2;
+z2.display();
     return 0;
 }
+// if no copy constructor is defined then the compiler supplies its own copy const. to each class

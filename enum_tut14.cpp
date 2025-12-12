@@ -1,17 +1,17 @@
 #include <iostream>  
 using namespace std;
-typedef struct employee
-{
-    int eId ;
-    float salary;
-    char favChar;
-}ep;
-union money
-{
-int rice ;
-char car;
-float pound;
-};
+// typedef struct employee
+// {
+//     int eId ;
+//     float salary;
+//     char favChar;
+// }ep;
+// union money
+// {
+// int rice ;
+// char car;
+// float pound;
+// };
 
 int main(){
 

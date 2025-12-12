@@ -1,7 +1,7 @@
-#include <iostream>
+# include <iostream>
 using namespace std;
 class Complex; // forard declaration
-class Calculator
+class Calculator 
 {
 public:
     int add(int a, int b)
@@ -43,7 +43,10 @@ int main()
 
     Complex o1, o2;
     o1.setdata(4.3, 2);
-    o2.setdata(6, 1);
+    o1.printdata();
+
+    o2.setdata(6, 1);   
+    o2.printdata();
     Calculator calc;
     int res = calc.sumrealcomplex(o1, o2);
     cout << "the sum of real part complex number is " << res << endl;

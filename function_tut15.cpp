@@ -3,7 +3,7 @@ using namespace std;
 
 int sum(int , int );
 void g();
-    
+
 int main(){
     int num1; 
     int num2; 
@@ -14,7 +14,8 @@ int main(){
     cin>>num2;
 
     cout<<"the sum is : "<<sum(num1,num2)<<endl;//num1 and num2 are the actual parameters
-    g();
+    
+  g(); 
      
 }
 int sum(int a , int b ){//a and b are the formal parameters
@@ -22,6 +23,6 @@ int sum(int a , int b ){//a and b are the formal parameters
     int c= a+b;
     return c;
 }
- void g(){
-  cout<<"hello good .... morning "<<endl; 
+void g(){
+    cout<<"hello good morning shushie";
 }

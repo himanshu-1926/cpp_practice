@@ -8,11 +8,13 @@ void setdata(int v1 , int v2){
     a=v1;
     b=v2;
 }
-friend Complex sumcomplex(Complex o1 , Complex o2);
+// friend Complex sumcomplex(Complex o1 , Complex o2);
 void printdata(){
     cout<<"enter your complex number "<<a<<" + "<<b<<"i"<<endl;
 
 }
+friend Complex sumcomplex(Complex o1 , Complex o2);
+
 };
 Complex sumcomplex(Complex o1 , Complex o2){
 Complex o3;

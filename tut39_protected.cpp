@@ -15,7 +15,7 @@ int main(){
 
     Base b;
     derived d;
-    // cout<<b.a;
-    cout<<d.a;
+    cout<<b.a;
+    // cout<<d.a;   
     return 0;
 }

@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "ostream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "tut26practice": "cpp",
+        "random": "cpp"
     }
 }

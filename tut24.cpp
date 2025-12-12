@@ -13,7 +13,7 @@ count++;
 void getdata(){
     cout<<"the id of the employee is  "<<id<<" and the employee no. is "<<count<<endl;
 }
-static void getcount(){
+static void getcount(){;
     cout<<"the value of count is "<<count<<endl;
 }
 };

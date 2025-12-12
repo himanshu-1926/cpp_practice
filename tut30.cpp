@@ -24,7 +24,7 @@ Complex ::Complex(int x, int y)
     b = y;
 }
 int main()
-{
+{       
     // implicit constructor
     Complex c(7, 9);
     c.printdata();

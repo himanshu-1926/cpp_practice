@@ -17,7 +17,7 @@ int main(){
     struct employee himanshu;
     union money m1;
     himanshu.eid=19;
-    himanshu.salary=1200000;
+    himanshu.salary=1200;
     himanshu.favchar='h';
     m1.rice=32;
    

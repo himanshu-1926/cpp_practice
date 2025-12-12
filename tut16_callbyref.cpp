@@ -20,13 +20,14 @@ int temp = *a;
  *b = temp ;
  }
 int main(){
+  cout<<sum(2,8)<<endl;
     int x=19;
     int y=26;
-    cout<<"the value a is "<<x<<" and the value of b is"<<y<<endl;
+    cout<<"the value a is "<<x<<" and the value of b is "<<y<<endl;
   //  swap(x,y);  
    swapPointer(&x , &y); 
 
-    cout<<"the value a is "<<x<<"and the value of b is"<<y<<endl;
+    cout<<"the value a is "<<x<<"and the value of b is "<<y<<endl;
 
   return 0;
 

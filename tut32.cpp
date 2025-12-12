@@ -16,7 +16,7 @@ cout<<"the number are : "<<data1<<" , "<<data2<<" , "<<data3<<endl;
 }
 int main(){
 
-    simple s(1,0);
+    simple s(1);
     s.printdata();
     return 0;
 }

@@ -4,6 +4,7 @@ using namespace std;
 class Employee{
     int id;
     int salary;
+    
 
     public:
  void setid(){

@@ -1,4 +1,4 @@
-# include <iostream>
+ # include <iostream>
 using namespace std;
 int main(){
     int marks[] ={23,54,72,43,65,88,71};

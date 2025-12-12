@@ -40,9 +40,11 @@ int main(){
 C1 oc1;
 C2 oc2;
 
-oc1.indata(54);
-oc2.indata(77);
 
+oc1.indata(54);
+// oc1.display();
+oc2.indata(77);
+// oc2.display();
  exchange(oc1, oc2);
  cout<<"the value of c1 after exchanging becomes : ";
  oc1.display();

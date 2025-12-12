@@ -11,7 +11,7 @@ float salary;
  }
  Employee(){}
 };
- class programmer :public Employee{
+ class programmer : public Employee{
     public: 
     int langcode;
     programmer(int inpid){
@@ -28,9 +28,9 @@ int main(){
     Employee him(1),himmie(2);
     cout<<him.salary<<endl;
     cout<<himmie.salary<<endl;
-    programmer skillf(10079);
+    programmer skillf(1);
     cout<<skillf.langcode<<endl;
     cout<<skillf.id<<endl;
-    skillf.getdata();
+    // skillf.getdata();
     return 0;
 }

@@ -2,6 +2,7 @@
 using namespace std;
 class Base
 {
+
     int data1;
 
 public:
@@ -23,7 +24,7 @@ int Base::getdata2()
 {
     return data2;
 }
-class derived : public Base
+class derived :protected Base
 {
     int data3;
 
